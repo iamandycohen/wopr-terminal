@@ -1,0 +1,13 @@
+{
+  "name": "wopr-terminal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js && node --check game-core.js && node --check cli.js && node --check cli/session.js && node --check cli/display.js",
+    "cli": "node cli.js",
+    "test": "node --test"
+  }
+}

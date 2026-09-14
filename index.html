@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#070c0e"><title>WOPR / Global Thermonuclear War</title><link rel="stylesheet" href="style.css"><link rel="icon" href="data:,"></head>
+<body>
+<div class="cabinet">
+<header class="hardware"><span>WOPR<span class="hardware-sub"> WAR OPERATION PLAN RESPONSE</span></span><span class="power"><i></i> SYSTEM ONLINE</span></header>
+<main class="screen">
+<div class="system-line"><span>NORAD / COMMAND & CONTROL</span><span id="clock">00:00:00 Z</span></div>
+<div class="heading"><div><p class="eyebrow">STRATEGIC SIMULATION / JOSHUA</p><h1>GLOBAL<br>THERMONUCLEAR WAR</h1></div><div class="defcon"><span>DEFCON</span><strong id="defcon">5</strong></div></div>
+<div class="map-header"><span id="map-status">GLOBAL SURVEILLANCE</span><span>90° N ─────────────── 90° S</span></div>
+<div class="map" role="img" aria-label="World map showing simulated missile tracks between the United States and Soviet Union">
+<div class="grid"></div><img src="assets/world.svg" alt="" draggable="false"><svg id="tracks" viewBox="0 0 1080 450" preserveAspectRatio="none" aria-hidden="true"></svg>
+<span class="map-label usa">UNITED STATES</span><span class="map-label ussr">SOVIET UNION</span><span class="map-label ocean">NORTH ATLANTIC</span>
+<div class="map-corner">WOPR SATCOM<br>LINK 04 / ACTIVE</div><div class="coordinates">180° W &nbsp; &nbsp; 0° &nbsp; &nbsp; 180° E</div>
+</div>
+<div class="telemetry"><div><span>YOUR SIDE</span><b id="side">UNASSIGNED</b></div><div><span>TRACKS</span><b id="track-count">000</b></div><div><span>ELAPSED</span><b id="elapsed">00:00:00</b></div><div><span>STATUS</span><b id="status">AWAITING INPUT</b></div></div>
+<section class="terminal" aria-label="Joshua command terminal"><div class="terminal-label"><span>JOSHUA / INTERACTIVE SESSION</span><span class="blink">●</span></div><div id="log" role="log" aria-live="polite" aria-relevant="additions"></div><div id="board" class="board" hidden aria-label="Tic-tac-toe board"></div><form id="command-form" autocomplete="off"><label for="command">&gt;</label><input id="command" name="command" aria-label="Terminal command" placeholder="TYPE A COMMAND" spellcheck="false" autocapitalize="off" maxlength="100"><button type="submit" aria-label="Submit command">ENTER ↵</button></form><div id="suggestions" class="suggestions"></div></section>
+<footer class="screen-footer"><span>CONNECTION ESTABLISHED · 1200 BAUD</span><span>SIMULATION ONLY</span></footer>
+</main>
+<footer class="controls"><span>W.O.P.R. <span class="serial">/ 83–0617</span></span><div><button id="sound" aria-pressed="false">SOUND OFF</button><button id="phosphor" aria-pressed="false">GREEN PHOSPHOR</button><button id="reset">RESET SESSION</button></div></footer>
+</div>
+<script type="module" src="app.js"></script>
+</body></html>
