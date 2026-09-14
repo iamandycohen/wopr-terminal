@@ -47,6 +47,8 @@ npm start
 
 Open http://localhost:3000. Set `PORT` to use another port. You can also open `index.html` with any static web server.
 
+For production hosting, `npm run build` creates a static site in `dist/`. The included `vercel.json` configures Vercel to deploy that directory directly rather than treating the browser JavaScript as a serverless function.
+
 Choose Global Thermonuclear War, select a side, enter one or more listed cities separated by commas, and enter `LAUNCH`. The scripted exchange takes about 22 seconds and has no winning outcome. `ABORT` before launch resets the session; after launch, the simulation continues. `RESET` always starts over and cancels pending events.
 
 Tic-tac-toe has an unbeatable minimax opponent. Enter `0` for the cinematic zero-player learning sequence. Its displayed analysis counter is theatrical, not a live exhaustive calculation. Click suggestions or type commands; up-arrow recalls the last command. Sound is optional and off by default. A green phosphor option and reduced-motion support are included.

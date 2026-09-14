@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "node scripts/build-web.js",
     "dev": "node server.js",
     "start": "node server.js",
-    "check": "node --check app.js && node --check server.js && node --check game-core.js && node --check cli.js && node --check cli/session.js && node --check cli/display.js",
+    "check": "node --check app.js && node --check server.js && node --check game-core.js && node --check cli.js && node --check cli/session.js && node --check cli/display.js && node --check scripts/build-web.js",
     "cli": "node cli.js",
     "test": "node --test"
   }
