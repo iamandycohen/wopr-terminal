@@ -2,6 +2,8 @@
 
 A movie-inspired, playable recreation of the Global Thermonuclear War terminal in *WarGames* (1983). Includes a browser version and a native command-line version. No runtime dependencies, accounts, or external requests.
 
+**Play it:** [wopr.iamandycohen.com](https://wopr.iamandycohen.com)
+
 ![WOPR command-line interface showing the strategic surveillance world map](assets/wopr-terminal-cli.png)
 
 Requires Node.js 20 or later. No installation step is needed.

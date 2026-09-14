@@ -1,6 +1,27 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#070c0e"><title>WOPR / Global Thermonuclear War</title><link rel="stylesheet" href="style.css"><link rel="icon" href="data:,"></head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070c0e">
+<meta name="description" content="A playable WarGames-inspired WOPR terminal for the browser and command line, featuring Global Thermonuclear War and an unbeatable Joshua AI.">
+<link rel="canonical" href="https://wopr.iamandycohen.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WOPR Terminal — Shall We Play a Game?">
+<meta property="og:description" content="A playable WarGames-inspired WOPR terminal for the browser and command line.">
+<meta property="og:url" content="https://wopr.iamandycohen.com/">
+<meta property="og:image" content="https://wopr.iamandycohen.com/assets/wopr-terminal-cli.png">
+<meta property="og:image:width" content="1862">
+<meta property="og:image:height" content="935">
+<meta property="og:image:alt" content="WOPR Terminal displaying a strategic simulation on a cyan world map">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WOPR Terminal — Shall We Play a Game?">
+<meta name="twitter:description" content="A playable WarGames-inspired WOPR terminal for the browser and command line.">
+<meta name="twitter:image" content="https://wopr.iamandycohen.com/assets/wopr-terminal-cli.png">
+<title>WOPR Terminal — Shall We Play a Game?</title>
+<link rel="stylesheet" href="style.css?v=2">
+<link rel="icon" href="assets/wopr-icon.svg" type="image/svg+xml">
+</head>
 <body>
 <div class="cabinet">
 <header class="hardware"><span>WOPR<span class="hardware-sub"> WAR OPERATION PLAN RESPONSE</span></span><span class="power"><i></i> SYSTEM ONLINE</span></header>
@@ -17,7 +38,7 @@
 <section class="terminal" aria-label="Joshua command terminal"><div class="terminal-label"><span>JOSHUA / INTERACTIVE SESSION</span><span class="blink">●</span></div><div id="log" role="log" aria-live="polite" aria-relevant="additions"></div><div id="board" class="board" hidden aria-label="Tic-tac-toe board"></div><form id="command-form" autocomplete="off"><label for="command">&gt;</label><input id="command" name="command" aria-label="Terminal command" placeholder="TYPE A COMMAND" spellcheck="false" autocapitalize="off" maxlength="100"><button type="submit" aria-label="Submit command">ENTER ↵</button></form><div id="suggestions" class="suggestions"></div></section>
 <footer class="screen-footer"><span>CONNECTION ESTABLISHED · 1200 BAUD</span><span>SIMULATION ONLY</span></footer>
 </main>
-<footer class="controls"><span>W.O.P.R. <span class="serial">/ 83–0617</span></span><div><button id="sound" aria-pressed="false">SOUND OFF</button><button id="phosphor" aria-pressed="false">GREEN PHOSPHOR</button><button id="reset">RESET SESSION</button></div></footer>
+<footer class="controls"><span>W.O.P.R. <span class="serial">/ 83–0617</span></span><nav class="project-links" aria-label="Project links"><a href="https://www.iamandycohen.com" rel="author">BUILT BY ANDY COHEN ↗</a><a href="https://github.com/iamandycohen/wopr-terminal" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></nav><div><button id="sound" aria-pressed="false">SOUND OFF</button><button id="phosphor" aria-pressed="false">GREEN PHOSPHOR</button><button id="reset">RESET SESSION</button></div></footer>
 </div>
 <script type="module" src="app.js"></script>
 </body></html>

@@ -14,6 +14,14 @@ await Promise.all([
     new URL('../assets/world.svg', import.meta.url),
     new URL('assets/world.svg', output)
   ),
+  cp(
+    new URL('../assets/wopr-terminal-cli.png', import.meta.url),
+    new URL('assets/wopr-terminal-cli.png', output)
+  ),
+  cp(
+    new URL('../assets/wopr-icon.svg', import.meta.url),
+    new URL('assets/wopr-icon.svg', output)
+  ),
 ]);
 
 console.log('Built static web app in dist/');
